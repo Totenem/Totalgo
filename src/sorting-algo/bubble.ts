@@ -1,4 +1,4 @@
-export function BubbleSort<T>(list: T[], comapreFN:(a: T,b: T) => number = (a,b) => (a < b ? - 1: a > b? 1 : 0)):  T[]{
+export function Bubble<T>(list: T[], comapreFN:(a: T,b: T) => number = (a,b) => (a < b ? - 1: a > b? 1 : 0)):  T[]{
     let copy_list = structuredClone(list)
     let list_length = copy_list.length 
 
