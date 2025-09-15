@@ -1,6 +1,6 @@
 {
   "name": "totalgo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript algorithms library: graph, searching, and sorting.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
