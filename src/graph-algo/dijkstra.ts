@@ -1,4 +1,4 @@
-export function Dijktra<T>( graph: Map<T, { node: T, weight: number}[]>, start: T): Map<T, number>{
+export function Dijkstra<T>( graph: Map<T, { node: T, weight: number}[]>, start: T): Map<T, number>{
     let distances = new Map<T, number>()
     let visisted = new Set<T>()
 

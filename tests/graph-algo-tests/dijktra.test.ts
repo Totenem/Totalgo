@@ -1,4 +1,4 @@
-import { Dijktra } from "../../src/graph-algo/dijkstra";
+import { Dijkstra } from "../../src/graph-algo/dijkstra";
 
 describe("Dijkstra's Algorithm", () => {
   it("should calculate shortest paths in a simple graph", () => {
@@ -9,7 +9,7 @@ describe("Dijkstra's Algorithm", () => {
       ["D", []],
     ]);
 
-    const distances = Dijktra(graph, "A");
+    const distances = Dijkstra(graph, "A");
 
     expect(distances.get("A")).toBe(0);
     expect(distances.get("B")).toBe(1);
@@ -24,7 +24,7 @@ describe("Dijkstra's Algorithm", () => {
       ["C", []], // disconnected
     ]);
 
-    const distances = Dijktra(graph, "A");
+    const distances = Dijkstra(graph, "A");
 
     expect(distances.get("A")).toBe(0);
     expect(distances.get("B")).toBe(2);
@@ -36,7 +36,7 @@ describe("Dijkstra's Algorithm", () => {
       ["X", []],
     ]);
 
-    const distances = Dijktra(graph, "X");
+    const distances = Dijkstra(graph, "X");
 
     expect(distances.get("X")).toBe(0);
   });
@@ -49,7 +49,7 @@ describe("Dijkstra's Algorithm", () => {
       [4, []],
     ]);
 
-    const distances = Dijktra(graph, 1);
+    const distances = Dijkstra(graph, 1);
 
     expect(distances.get(1)).toBe(0);
     expect(distances.get(2)).toBe(7);
@@ -65,7 +65,7 @@ describe("Dijkstra's Algorithm", () => {
       ["D", []],
     ]);
 
-    const distances = Dijktra(graph, "A");
+    const distances = Dijkstra(graph, "A");
 
     expect(distances.get("A")).toBe(0);
     expect(distances.get("C")).toBe(1);

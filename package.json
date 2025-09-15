@@ -1,15 +1,37 @@
 {
-  "name": "algo-library",
+  "name": "totalgo",
   "version": "1.0.0",
-  "description": "",
+  "description": "TypeScript algorithms library: graph, searching, and sorting.",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "Totalgo.jpeg"
+  ],
+  "sideEffects": false,
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "algorithms",
+    "typescript",
+    "search",
+    "sort",
+    "graph",
+    "dijkstra",
+    "bfs",
+    "dfs"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
