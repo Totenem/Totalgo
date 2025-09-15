@@ -1,4 +1,4 @@
-import { Bubble } from "../src/sorting-algo/bubble";
+import { Bubble } from "../../src/sorting-algo/bubble";
 
 describe("bubbleSort function", () => {
   it("should sort numbers in ascending order", () => {

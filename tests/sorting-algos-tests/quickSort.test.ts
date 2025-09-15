@@ -1,4 +1,4 @@
-import { Quick } from "../src/sorting-algo/quick";
+import { Quick } from "../../src/sorting-algo/quick";
 
 describe("Quick Sort", () => {
   // Numbers
