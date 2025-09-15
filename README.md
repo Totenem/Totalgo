@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./Totalgo.jpeg" alt="Totalgo" width="640" />
+  <img src="https://cdn.jsdelivr.net/npm/totalgo@latest/Totalgo.jpeg" alt="Totalgo" width="640" />
 
   <h2>Totalgo</h2>
 
